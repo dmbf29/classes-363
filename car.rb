@@ -3,8 +3,10 @@
 # class ALWAYS SINGULAR
 
 class Car # all the rules for one instance
-  attr_accessor :color # builds both the reader and writer
+  # all attr_ things should go on top
+  # attr_accessor :color # builds both the reader and writer
   attr_writer :color # allows to change instance variables
+
     # constructor FOR ONE INSTANCE
   def initialize(color, brand) # .new -> .intialize
     # instance variable -> stores info inside instance
